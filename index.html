@@ -4,6 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <title>skillup</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+    integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -11,9 +13,9 @@
   <!-- ヘッダー -->
   <header>
     <div class="header-area">
-      <div class="heading">ロゴ</div>
-      <nav>
-        <ul class="nav-list">
+      <div class="heading"><img class="logo" src="img/logo.png" alt=""></div>
+      <nav class="header-nav">
+        <ul>
           <li class="nav-list-item">Portfolio</li>
           <li class="nav-list-item">Feature</li>
           <li class="nav-list-item">Profile</li>
@@ -44,50 +46,52 @@
       <div class="portfolio-box"></div>
       <div class="portfolio-box"></div>
     </div>
-    
-
   </section>
+
   <!-- feature -->
   <section class="feature">
-
     <h2>Feature</h2>
-
-
     <p class="text-area">
       It is a long established fact that a reader will be distracted by the readable <br />
       content of a page when looking at its layout.<br />
       The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
     </p>
+    <!-- 下の３つ -->
     <div class="feature-elements">
       <div class="element">
+        <i class="fab fa-instalod"></i>
         <h3 class="element-title">Strength1</h3>
         <p>
-          Contrary to popular belief,Lorem Ipsum<br />
-          is not simply random text.It has roots<br />
-          in a piece of classical Latin literature<br />
-          from 45 BC, making it over 2000 years<br />
-          old. Richard McClintock, a Latin professor at<br /> Hampden-Sydney College in Virginia, looked up one of
-          the<br /> more obscure Latin words, consectetur
+          Contrary to popular belief,Lorem Ipsum
+          is not simply random text.It has roots
+          in a piece of classical Latin literature
+          from 45 BC, making it over 2000 years
+          old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of
+          the more obscure Latin words, consectetur
         </p>
       </div>
       <div class="element">
+        <i class="fab fa-instalod"></i>
         <h3 class="element-title">Strength2</h3>
         <p>
-          is not simply random text.It has roots<br />
-          in a piece of classical Latin literature<br />
-          from 45 BC, making it over 2000 years<br />
-          old. Richard McClintock, a Latin professor at<br /> Hampden-Sydney College in Virginia, looked up one of
-          the<br /> more obscure Latin words, consectetur
+          Contrary to popular belief,Lorem Ipsum
+          is not simply random text.It has roots
+          in a piece of classical Latin literature
+          from 45 BC, making it over 2000 years
+          old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of
+          the more obscure Latin words, consectetur
         </p>
       </div>
       <div class="element">
+        <i class="fab fa-instalod"></i>
         <h3 class="element-title">Strength3</h3>
         <p>
-          is not simply random text.It has roots<br />
-          in a piece of classical Latin literature<br />
-          from 45 BC, making it over 2000 years<br />
-          old. Richard McClintock, a Latin professor at<br /> Hampden-Sydney College in Virginia, looked up one of
-          the<br /> more obscure Latin words, consectetur
+          Contrary to popular belief,Lorem Ipsum
+          is not simply random text.It has roots
+          in a piece of classical Latin literature
+          from 45 BC, making it over 2000 years
+          old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of
+          the more obscure Latin words, consectetur
         </p>
       </div>
     </div>
@@ -100,21 +104,29 @@
       content of a page when looking at its layout.<br />
       The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters<br />
     </p>
-    <!-- 人物の写真 -->
-    <div class="profile-content">
-      <div class="profile-element">
-        <h3 class="element-title">MyName</h3>
-        <p>
-          Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin
-          literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney
-          College in Virginia, looked up one of the more obscure Latin words, consectetur
-        </p>
+    <div class="profile-contents">
+      <div class="icon-area">
+        <img class="my-icon" src="img/my-icon.jpg" alt="">
       </div>
-      <div class="profile-element">
-        <h3 class="element-title">MySkills</h3>
-        <p>HTML/CSS,JavaScript,JQuery,PhotoShop</p>
+
+      <div class="profile-content">
+        <div class="profile-element">
+          <h3 class="profile-title">MyName</h3>
+          <p>
+            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical
+            Latin
+            literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at
+            Hampden-Sydney
+            College in Virginia, looked up one of the more obscure Latin words, consectetur
+          </p>
+        </div>
+        <div class="profile-element">
+          <h3 class="profile-title">MySkills</h3>
+          <p>HTML/CSS,JavaScript,JQuery,PhotoShop</p>
+        </div>
       </div>
     </div>
+
   </section>
   <!-- コンタクト -->
   <section class="contact">
@@ -124,21 +136,41 @@
       content of a page when looking at its layout.<br />
       The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
     </p>
-    <div class="contact-element">
-      <div class="mail">
-        <h3 class="element-title">Mail</h3>
-        <p>xxx@xxx.com</p>
+    <div class="contact-area">
+
+      <div class="contact-element">
+        <div class="mail-tel">
+
+          <div class="mail">
+            <h3 class="element-title">Mail</h3>
+            <p>xxx@xxx.com</p>
+          </div>
+          <div class="tel">
+            <h3 class="element-title">Tel</h3>
+            <p>000-0000-0000</p>
+          </div>
+
+        </div>
+
       </div>
-      <div class="tel">
-        <h3 class="element-title">Tel</h3>
-        <p>000-0000-0000</p>
+      <div class="contact-element">
+        <div class="sns">
+
+          <div class="icon">
+            <h3 class="element-title">SNS</h3>
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-instagram-square"></i>
+              <i class="fab fa-line"></i>
+          </div>
+
+
+        </div>
+
       </div>
+
+
     </div>
-    <div class="contact-element">
-      <div class="icon">
-        <h3 class="element-title">SNS</h3>
-      </div>
-    </div>
+
   </section>
   <!-- フッター -->
   <footer>

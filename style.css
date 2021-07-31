@@ -3,42 +3,35 @@
   margin: 0;
   box-sizing: border-box;
 }
-
-
-/* 
- */
-
-
+/* ヘッダー*/
 header{
   background-color: #EC715F;
   height: 70px;
-  width: auto;
-  
-
+  width: 100%;
 }
 .header-area{
   width: 1024px;
-  text-align: center;
-
-  
+  display: flex;
+  align-items: center;
+  margin: 0 auto;  
 }
-header.heading{
-  text-align: left;
-
+.logo {
+  height: 70px;
 }
-.nav-list{
-  text-align: right;
-
+ul{
+  list-style: none;
+  margin: 0;
+  display: flex;
+}
+nav{
+  margin: 0 0 0 auto;
 }
 .nav-list-item{
-  list-style: none;
-  display: inline-block;
   color: #FAFAFA;
   font-size: 16px;
-  padding: auto 30px;
+  margin: auto 30px;
 }
-/* 
- */
+/* メイン*/
 main{
   background-image: url(img/mv.png);
   background-size: cover;
@@ -57,24 +50,19 @@ h1{
   font-size: 20px;
   margin-top: 10px;
 }
-/* 
- */
+/* ポートフォリオ*/
 .portfolio{
   background-color: #ECEFF1;
   padding: 90px 0;
   text-align: center;
-  
 }
-/* 直す */
 h2{
   position: relative;
   color: #000000;
   font-size: 32px;
   display: inline-block;
-/* 直す */
 }
 h2:before{
-
   content: '';
   position: absolute;
   left: 50%;
@@ -86,12 +74,10 @@ h2:before{
   transform: translateX(-50%);/*位置調整*/
   background-color: #EC715F;/*線の色*/
 }
-
 .text-area{
   font-size: 16px;
   color: #000000;
   margin: 30px auto;
-
 }
 .portfolio-contents{
   width: 920px;
@@ -131,31 +117,94 @@ h2:before{
   background-image: url(img/webcamp-mother.png);
   margin-right: 0;
 }
-/* 
- */
+/* フィーチャー */
 .feature{
   padding: 90px 0;
-  width: 100%;
+  width: 980px;
   text-align: center;
+  margin: 0 auto;
+}
+.feature-elements{
+  display: flex;
 
 }
-/* 
- */
+.element{
+  width: 320px;
+  height: auto;
+}
+.element:nth-child(2){
+  margin: 0 10px;
+}
+.element i{
+  font-size: 60px;
+}
+.element-title{
+  margin: 10px 0;
+}
+/* プロフィール */
 .profile{
   background-color: #ECEFF1;
   padding: 90px 0;
   width: 100%;
   text-align: center;
-
 }
-/* 
- */
+.profile-contents{
+  display: flex;
+  width: 1024px;
+  margin: 0 auto;
+}
+.icon-area{
+  width: 512px;
+}
+.my-icon{
+  margin: auto;
+  border-radius: 50%;
+}
+.profile-content{
+  width: 512px;
+  height: auto;
+  text-align: left;
+}
+.profile-element:nth-child(1){
+  margin-bottom: 20px;
+}
+.profile-title{
+  margin-bottom:5px ;
+}
+
+/* コンタクト */
 .contact{
   padding: 90px 0;
-  width: 100%;
+  width: 800px;
+  margin: 0 auto;
   text-align: center;
-
 }
+.contact-area{
+  display: flex;
+  
+}
+.contact-element {
+  width: 400px;
+  height: auto;
+  text-align: center;
+}
+.mail-tel{
+  display: inline-block;
+  text-align: left;
+}
+.sns{
+  display: inline-block;
+  text-align: left;
+}
+
+.icon i{
+  font-size: 50px;
+  margin-right: 20px;
+}
+.icon i:last-child{
+  margin-right: 0;
+}
+
 /* 
  */
 footer{
@@ -163,7 +212,9 @@ footer{
   height: 60px;
   width: 100%;
   text-align: center;
+}
+footer p{
+  color: white;
+  font-size: 16px;
 
 }
-
-
